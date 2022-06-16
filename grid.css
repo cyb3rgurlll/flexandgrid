@@ -16,10 +16,6 @@ body{
   align-items: stretch;
   grid-gap: 0.7em;
 }
-.wrapper > div{
-  text-align: center;
-  /* padding: 20px; */
-}
 .item-a{
   background-color: rgb(255, 119, 0);
   grid-column: 1/3;

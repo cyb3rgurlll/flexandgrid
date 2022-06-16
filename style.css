@@ -90,6 +90,16 @@ button:hover{
 .luxury button:hover{
   color: hsl(0, 0%, 95%);
 }
+a > button{
+  border: 1px solid hsl(179, 100%, 13%);
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+a > button:hover{
+  border: 1px solid hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);;
+}
 @media screen and (max-width:375px){
   main{
     flex-direction: column;
